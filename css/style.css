@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+	font-family: 'Raleway', sans-serif;
+	color: #000000;
+	font-size: 14px;
+	background-color: #fff;
+	
+}
+
+#acerca {
+	padding: 155px 0;
+	background-color: #F8C2C3;
+}
+
+#acerca h1{
+	font-size: 34px;
+}
+
+
+#acerca h1::after{
+	content: '';
+	height: 3px;
+	background-color: #FB5CE6;
+	width: 185px;
+	display: block;
+	margin-top:  10px;
+}
+
+#acerca p {
+	font-size: 20px;
+	text-align:  justify;
+}
+
+#trabajo{
+	padding: 80px 0;
+	background-color: #F8DE9C;
+}
+
+#trabajo h1{
+	padding: 60px 0;
+	text-align: center;
+	color: #9F0782;
+	font-weight: 700
+}
+
+#trabajo .fas{
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 15px;
+	
+}
+
+#trabajo .fa-pizza-slice{
+	color: #FF9E00;
+}
+
+#trabajo .fa-camera {
+	color: #FF59CF;
+}
+
+#trabajo .fa-paint-brush {
+	color: #3FACFC;
+}
+
+#trabajo h3{
+	text-align: center;
+	color: #9F0782;
+	font-weight: 700;
+	
+}
+
+#contacto{
+	padding: 70px; 
+	background-color: #F9C3FF;
+	color: #AD0AA8;
+	
+}
+
+#contacto a{
+	color: #AD0AA8;
+	font-size: 20px;
+}
+
+#contacto a:hover{
+	color: #fff;
+}
+
+
+#derechos {
+	background-color:  #F8C2C3;
+	padding: 35px 0;
+	color: #000;
+}
+
+.ocultar {
+	display: none;
+}
+
+
+.btn-rectangulo {
+	background-color: #AD0AA8;
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	text-transform:uppercase;
+	font-weight: 600;
+		
+}
+
+
+.btn-rectangulo:hover {
+	background-color: #FF7600;
+	border:1px solid #FF7600;
+	color: #fff;
+}
+
+
+
+/*Tablet*/
+@media (min-width: 480px) and (max-width:1024px) {
+	
+	.slider-1 h1{
+		font-size: 20px;
+	}
+}
+
+
+
+/*Celular*/
+
+@media (max-width:480px){
+	.slider-1 h1{
+		font-size: 20px;
+	}
+	
+}
